@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2&family=Imprima&family=Pacifico&family=Pridi:wght@300&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Zilla+Slab&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    color: #917686;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+#logo img {
+    height: 42px;
+    filter: invert(1);
+}
+
+#navbar {
+    background-color: #bd3131;
+    padding: 13px 14px;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: center;*/
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+
+}
+
+#navbar li a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13px 25px;
+}
+
+#navbar li a:hover {
+    color: black;
+
+}
+
+#introsection {
+    background: center/cover no-repeat url("/static/bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+    background-color: red;
+    color: white;
+    font-family: 'Zilla Slab', serif;
+    font-size: 46px;
+    padding-bottom: 88px;
+
+
+}
+
+#introsection div.small {
+    font-size: 40px;
+    padding: 5px;
+}
+
+/*#missionSection {
+    height: 300px;
+    display: block;
+    width: 67%;
+    margin: auto;
+    background-color: yellow;
+}*/
+#missionsection {
+    height: 295px;
+    width: 67%;
+    margin: auto;
+    display: block;
+    
+
+}
+#missionsection h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Zilla Slab', serif;
+    
+}
+
+
+/*#missionSection h3{
+    font-size: 36px;
+    font-family: 'Yeon Sung';
+    text-align: center;
+    padding-top: 12px;
+}*/
+
+.card {
+    display: inline-block;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 14px;
+    height: 174px;
+
+    background: #f1e6e8;
+}
+
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.card-img {
+    height: 100px;
+    padding: 0 14px;
+    margin: 15px -5px;
+
+
+}
+
+.card-img img {
+    height: inherit;
+    
+
+}
+.card-content{
+    padding: 0 5px;
+}
+.card-content p{
+    font-size: 19px;
+}
+
+#sponserssection {
+    height: 270px;
+    background-color: rgb(248, 202, 210);
+
+}
+
+#sponserssection h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Zilla Slab', serif;
+}
+#sponsers{
+    height: 189px;
+    max-width: 1000px;
+    margin: 27px  auto;
+
+}
+.Spimage{
+    height: 80%;
+    margin: 20px;
+}
+#footer{
+    background-color: black;
+    height: 42px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2&family=Imprima&family=Pacifico&family=Pridi:wght@300&family=Smooch&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+.container{
+    min-height: 81vh;
+    
+}
+.container h1{
+    font-family: 'Pacifico', cursive ;
+    font-size: 40px;
+}
+.myForm{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    /*width: 100%;*/ 
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    padding: 8px;
+    width: 40%;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid #e1c7c7;
+    border-radius: 10px;
+    outline: none;
+}
+.btn{
+    padding: 5px 35px;
+    font-size: 18px;
+    border: 2px solid #f1c8c8;
+    border-radius: 13px;
+    background-color: #282525;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 35px;  
+
+}
