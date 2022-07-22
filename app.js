@@ -8,7 +8,7 @@ mongoose.connect("mongodb://localhost:27017/contactDance", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 //Define mongoose schema
 const contactSchema = new mongoose.Schema({
